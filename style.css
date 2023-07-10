@@ -1,0 +1,100 @@
+@import url("Vazirmatn-font-face.css");
+
+* {
+  font-family: Vazirmatn;
+}
+#address{
+  vertical-align: baseline;
+}
+body {
+    display: inline-block;
+    border: 40px;
+    background-color: gold;
+    /* background-image: url("ss.jpg"); */
+    background-size: cover;
+    font-size: 21px;
+    display: flex;
+    justify-content: center; 
+    font-family: Vazirmatn;
+}
+
+input {
+    border:4px groove palegreen;
+    border-radius: 4%;
+    padding: 30px;
+    /* display: inline-block; */
+    background-color:darkslateblue;
+    color:greenyellow;
+
+   
+}
+
+
+table,
+tr{
+    border: 18px solid cornflowerblue;
+    border-collapse: collapse;
+    direction: rtl;
+    height: 15px;
+   width: 30%;
+
+
+}
+td{
+    color: mediumvioletred;
+     border:3px bold lightpink;
+    margin-top: 200px;
+    
+    
+}
+
+  img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 300px;   
+    border-radius:50%;
+  }
+
+  .dark{
+    background-color: black;
+    color: white;
+  }
+  .dark1{
+    /* background-color: lawngreen; */
+    color: white;
+  }
+  
+  label{
+    width: 161px;
+    display: inline-block;
+       /* color: red; */
+       color: firebrick;
+  }
+
+  #submit{
+    display: flex;
+    justify-content:center;
+    /* margin-bottom: 1000px;    */
+    margin-right: 20px;
+  }
+  textarea{
+    border:4px groove palegreen;
+  margin-left: 20%;
+  size: 88px;
+  height: 170px;
+ 
+    background-color:darkslateblue;
+    color:greenyellow;
+  }
+  #address{
+    vertical-align: middle;
+    
+  }
+  #info{
+    vertical-align: middle;
+  }
+  #profile{
+    width: 174px;
+  }

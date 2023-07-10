@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="./s.js"></script>
+</head>
+</head>
+
+<button onclick="switchTheme(document.body)" style="height: 20%;">تغییر رنگ</button>
+
+<body style="display: flex;">
+    <form name="frmresult" action="resume.php" method="post" dir="rtl" class="f">
+        <div class="form-item">
+            <label for="name">نام</label>
+            <input type="text" name="name" id="name">
+        </div>
+        <div class="gender">
+            <label>جنسیت</label>
+        <input type="radio" name="gender" value="آقا" style="text-align: center;">
+         <label for="male">آقا</label>
+         <input type="radio" name="gender" value="خانم" style="text-align: center;">
+         <label for="female">خانم</label>
+                 </div>
+        <div class="form-item">
+            <label for="birthday">تاریخ تولد</label>
+            <input type="text" name="birthday" id="birthday">
+        </div>
+        <div class="Condition">
+            <label>وضعیت تاهل</label>
+            <input type="radio"  name="Condition" value="مجرد">
+            <label for="mozarad">مجرد</label>
+            <input type="radio"  name="Condition" value="متاهل">
+            <label for="motahle">متاهل</label>
+        </div>
+        <div class="form-item">
+        <label>شماره همراه</label>
+        <input type="text" name="phone" id="phone">
+        </div>
+        <div class="form-item">
+        <label for="address">آدرس</label>
+        <textarea type="text" name="address" id="address"></textarea>
+        </div>
+        <div class="form-item">
+        <label>سوابق تحصیلی</label>
+        <input type="text" name="tahsilat" id="tahsilat">
+        </div>
+        <div class="form-item">
+        <label>ایمیل</label>
+        <input type="text" name="email" id="email">
+        </div>
+        <div class="form-item">
+        <label  for="info" name="info" > درباره</label>
+         <textarea type="text" name="info" id="info"></textarea>
+        </div>
+        <div class="form-item">
+        <label> پروفایل</label>
+        <input type="file" name="profile" id="profile"> 
+        </div>
+        <div id="submit" class="form-item">
+            <input type="submit" value="ساخت رزومه" action="resume.html" style="width: 128px;" id="submit">
+            <input type="reset" value="جدید" id="reset" style="width: 125px;">
+        </div>
+    </form>
+</body>
+
+</html>
